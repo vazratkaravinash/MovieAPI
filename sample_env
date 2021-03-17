@@ -1,0 +1,20 @@
+PORT=8082
+HOST=0.0.0.0
+CONNECTION_STRING = mongodb+srv://blubunny_storefront_user:jdj64EQ9OHo3kLDc@mongo-anmid.mongodb.net/storeFrontDb?retryWrites=true&w=majority
+RSA_PRIVATE_KEY = secret
+JWT_TOKEN_TIMEOUT = 86400
+BB_STOREFRONT_HOST = https://bb-storefront-api-dot-blubunny.uc.r.appspot.com
+MARKETPLACE_HOST = https://bb-mar-api-dot-blubunny.uc.r.appspot.com
+MARKETPLACE_PORT = 80
+
+SFTP_HOST =  localhost
+SFTP_PORT = 21
+SFTP_USERNAME = mpftpuser
+SFTP_PASSWORD = Pa55word1@3
+SFTP_HOST_PATH = /marketplace/
+
+ELASTIC_SEARCH_URL = http://localhost:9200
+ELASTIC_SEARCH_API_VERSION = 5.6
+
+
+PAYMENT_GATEWAY_URL=https://wsvar.paymentech.net/PaymentechGateway

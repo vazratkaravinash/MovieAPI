@@ -1,0 +1,1 @@
+const movie = require('./services/movie')
